@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="dist/css/fontello.min.css">
 </head>
 <body>
-<div class="container">
+<div class="container" style="height:auto;">
     <div class="sidebar">
         <div class="title">
             <img src="img/2.png">
@@ -105,7 +105,7 @@
             </div>
         </div>
     </div>
-    <div class="main">
+    <div class="main" style="height:auto;">
         <ul class="main-info">
             <li>
                 <dt><i class="icon-bookmark"></i>Experience. 项目与工作经验</dt>
@@ -115,14 +115,14 @@
                         <div class="circle"></div>
                         <h4>热力图可视化</h4>
                         <p>该项目是为某航空所建立的空天相关项目，主要为实现相关数据的可视化，以一种良好清晰的表现形式展现数据：通过颜色差异及柱体的高低代表数据大小，使用户可以从某特定战场数据中快速获取相关信息，了解战场分布的总体情况</p>
-                        <p>用三维热力图（OSG、OSGEarth、Shader实现）进行数据可视化并分析，同时针对大规模数据利用GPU计算降低时间复杂度（CUDA实现）</p>
+                       <!--  <p>用三维热力图（OSG、OSGEarth、Shader实现）进行数据可视化并分析，同时针对大规模数据利用GPU计算降低时间复杂度（CUDA实现）</p> -->
                         <p>发表相关论文：聂俊岚, 辛姝悦, 张继凯, 郭栋梁. 一种改进的地理交通信息热图可视化方法[J].四川大学学报(工程科学版), (EI收录期刊),2015(04)</p>
                     </li>
                     <li>
                         <div class="circle"></div>
                         <h4>边绑定可视化</h4>
                         <p>该项目是为某航空所建立的空天相关项目，主要为实现相关数据的可视化，以一种良好清晰的表现形式展现数据：在减少图可视化复杂性的前提下同时将对其有影响的地理信息表现出来，达到了以最简单的形式展现最多信息的目的</p>
-                        <p>选取合理的可视化方法进行数据分析与实现：针对边混乱问题，利用最短路径策略计算出对数据产生影响的交通信息，并根据交通信息拟合出若干贝塞尔曲线用于代替原图可视化中的线，同时提出控制点合并策略进一步优化</p>
+                       <!--  <p>选取合理的可视化方法进行数据分析与实现：针对边混乱问题，利用最短路径策略计算出对数据产生影响的交通信息，并根据交通信息拟合出若干贝塞尔曲线用于代替原图可视化中的线，同时提出控制点合并策略进一步优化</p> -->
                         <p>发表相关论文：Junlan Nie, Jikai Zhang, Shuyue Xin, Dongliang Guo. Road network information based edge bundling [J]. Journal of Computational Information Systems(JCIS), (EI收录期刊),2015 Vol.12(13)</p>
                     </li>
                 </ul>
@@ -146,6 +146,24 @@
                         <p>在已有项目管理系统基础上，进一步开发移动端网页版，方便员工便携式工作</p>
                         <p>工作职责：负责移动端网站的前端设计与构建</p>
                     </li>
+                    <li>
+                            <div class="circle"></div>
+                            <h4>公司内部项目计划管理系统</h4>
+                            <p>实现项目计划上报、审核、进度跟踪和变更的功能</p>
+                            <p>工作职责：负责网站的前端设计与构建</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>公司内部数字图书馆系统</h4>
+                            <p>利用网络整合书籍刊物资源，为员工提供书籍刊物的在线阅读和下载</p>
+                            <p>工作职责：负责网站的前端设计与构建</p>
+                        </li>
+                        <li>
+                            <div class="circle"></div>
+                            <h4>公司内部在线餐厅系统</h4>
+                            <p>制定公司内部订餐系统，为员工提供订餐服务</p>
+                            <p>工作职责：项目总负责人，参与前期市场调研、设计产品模型并负责网站前端的设计与开发</p>
+                        </li>
                 </ul>
                 <h3>个人项目</h3>
                 <ul class="exp">
@@ -173,7 +191,7 @@
                             </li>
                         </ul>
                     </li> -->
-                    <li>
+                    <!-- <li>
                         <div class="circle"></div>
                         <h4>
                             基于BT响应式网页构建 <a href="https://github.com/haha214/bootstrap_practice" target="_blank">https://github.com/haha214/bootstrap_practice</a>
@@ -181,12 +199,12 @@
                         <p>游戏介绍的响应式页面</p>
                         <p>个性化蜂窝主页</p>
                         <p>响应式购物网站</p>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                         <div class="circle"></div>
                         <h4>移动Web页面布局实践 <a href="https://github.com/haha214/MobileWeb/tree/master" target="_blank">https://github.com/haha214/MobileWeb/tree/master</a></h4>
                         <p>移动端web页面构架和布局，实现的页面和设计图在iOS Safari，微信，Android浏览器中均基本一致</p>
-                    </li>
+                    </li> -->
                 </ul>
             </li>
             <li>
@@ -205,6 +223,9 @@
                         <p>熟悉原生Javascript，能脱离jQuery等类库编码</p>
                         <p>能运用模块化、面向对象的方式编程</p>
                         <p>熟悉jQuery/Bootstrap的使用、定制与扩展，阅读过部分源代码</p>
+                        <p>熟悉echarts数据可视化模块</p>
+                        <p>有微信小程序开发经验</p>
+                        <p></p>
                     </li>
                 </ul>
                 <h3>后端</h3>
